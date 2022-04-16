@@ -1,7 +1,6 @@
 #include <iostream>
 #include <unistd.h>
 #include <unistd.h>
-
 using namespace std;
 
 class Cperson
@@ -14,14 +13,7 @@ class Cperson
 		static path lock;
 	public:
 		static Cperson * Getobject();
-		static void Destory(Cperson * p);
-
-
-
-
-
-
-
+		
 
 
 
